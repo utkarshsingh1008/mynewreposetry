@@ -1,0 +1,157 @@
+*{
+    background-color: #ebfeff;
+   font-family: sora;
+   box-sizing: border-box;
+   margin: 0; 
+}
+#nav-bar{
+  display: flex;
+   border-bottom: 1px solid black;
+   height: 100px;
+   width: 1440px;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer; 
+}
+#heading{
+ font-weight: 700;
+ font-size: 30px;
+ color: rgba(0, 0, 0, 1);
+ padding-left: 144px ;
+}
+
+#menu-bar{
+    display: flex;
+    padding: 144px;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    color : rgba(0, 0, 0, 0.7);
+}
+#hero-section{
+    display: flex;
+
+    align-items: center;
+    padding-right: 164px;
+    padding-top: 164px;
+    padding-left: 164px;
+    padding-bottom: 130px;
+    gap: 54px;
+}
+#hero-section h5{
+    color: rgba(69, 123, 157, 1) ;
+font-size: 24px;
+font-weight: 400;
+}
+#hero-section h1{
+
+    font-size: 48px;
+    font-weight: 700; 
+}
+#hero-section p{
+font-size: 20px;
+font-weight: 400;
+
+}
+#hero-section button{
+    width: 274px;
+height: 64px;
+top: 320px;
+margin: 25px;
+font-size: 24px;
+font-weight: 400;
+}
+#hero-section #button1{
+   background-color: rgba(69, 123, 157, 1); 
+}
+#hero-section  #background-image{
+    border-radius: 40px;
+    background-color: #457b9d;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 479px;
+    height: 390px;
+    position: relative;
+}
+#img{
+    width: 322px;
+    height: 416.758px;
+    position: absolute;
+    top: -27px;
+    left: 78px;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    padding-right: 164px;
+    padding-left: 164px;
+    background-color: white;
+}
+#about-me p{
+font-size: 20px;
+font-weight: 400;
+}
+#about-me h1{
+    font-size: 48px;
+    font-weight: 700; 
+}
+#about-me h5{
+    color: rgba(69, 123, 157, 1) ;
+    font-size: 24px;
+    font-weight: 400;
+}
+#skills p{
+    color: rgba(69, 123, 157, 1) ;
+    font-size: 24px;
+    font-weight: 400;
+}
+#skills{
+    font-size: 42px;
+    font-weight: 700;  
+    text-align: center;
+    padding-top: 130px;
+}
+
+#projects-section{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 146px;
+    padding-right: 146px;
+    padding-top: 73px;
+    padding-bottom: 91px;
+}
+#card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.projects-card{
+    width: 362px;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    cursor: pointer;   
+}
+#main-heading{
+    margin: 0;
+  margin-bottom: 28px;
+  color: #457b9d;
+  font-size: 32px;
+  font-weight: 600; 
+}
+#about-project{
+    margin: 0;
+    margin-bottom: 54px;
+    font-size: 48px;
+}
+
+.project-img{
+    width: 363px;
+  height: 198px;
+}
+footer{
+    padding: 100px;
+}
